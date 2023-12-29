@@ -43,7 +43,7 @@ module.exports = {
 
   test: {
     client: "postgresql",
-    connection: DATABASE_URL,
+    connection: URL,
     migrations: {
       directory: path.join(__dirname, "src", "db", "migrations"),
     },
